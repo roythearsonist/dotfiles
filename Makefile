@@ -9,3 +9,7 @@ install:
 	cp -r .config/bspwm ~/.config/bspwm
 	cp -r .config/sxhkd ~/.config/sxhkd
 	cp -r .config/polybar ~/.config/polybar
+
+update:
+	git pull
+	make
