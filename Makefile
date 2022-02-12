@@ -1,4 +1,4 @@
-.PHONY: all install
+.PHONY: all install uninstall update
 
 all: install
 
@@ -11,6 +11,9 @@ install:
 	cp -r .config/polybar ~/.config/polybar
 	cp .config/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
 
-update:
+uninstall:
+	rm -rf ~/.vim ~/.config/fish ~/.config/bspwm ~/.config/sxhkd ~/.config/polybar ~/.config/alacritty
+
+update: uninstall
 	git pull
 	make
