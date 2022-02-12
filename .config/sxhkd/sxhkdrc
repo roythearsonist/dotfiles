@@ -4,11 +4,11 @@
 
 # terminal emulator
 ctrl + alt + t
-	kitty
+	alacritty
 
 # web browser
 ctrl + alt + w
-	brave
+	brave-browser
 
 # File manager
 ctrl + alt + f
