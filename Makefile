@@ -8,9 +8,11 @@ install:
 	cp -r .config/sxhkd ~/.config/sxhkd
 	cp -r .config/polybar ~/.config/polybar
 	cp -r .config/alacritty ~/.config/alacritty
+    cp -r .doom.d ~/.doom.d
+	cp -r .emacs.d ~/.emacs.d
 
 uninstall:
-	rm -rf ~/.config/fish ~/.config/bspwm ~/.config/sxhkd ~/.config/polybar ~/.config/alacritty
+	rm -rf ~/.config/fish ~/.config/bspwm ~/.config/sxhkd ~/.config/polybar ~/.config/alacritty ~/.doom.d ~/.emacs.d
 
 update: uninstall
 	git pull
