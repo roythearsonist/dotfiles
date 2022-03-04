@@ -8,7 +8,7 @@ install:
 	cp -r .config/sxhkd ~/.config/sxhkd
 	cp -r .config/polybar ~/.config/polybar
 	cp -r .config/alacritty ~/.config/alacritty
-    cp -r .doom.d ~/.doom.d
+    	cp -r .doom.d ~/.doom.d
 	cp -r .emacs.d ~/.emacs.d
 
 uninstall:
