@@ -10,6 +10,8 @@ Plugin 'dracula/vim', { 'name': 'dracula' }
 
 Plugin 'mhinz/vim-startify'
 
+Plugin 'neoclide/coc.nvim', {'branch': 'release'}
+
 call vundle#end()
 
 filetype plugin indent on
