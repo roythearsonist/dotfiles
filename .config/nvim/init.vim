@@ -12,6 +12,8 @@ Plugin 'mhinz/vim-startify'
 
 Plugin 'neoclide/coc.nvim', {'branch': 'release'}
 
+Plugin 'wsdjeg/FlyGrep.vim'
+
 call vundle#end()
 
 filetype plugin indent on
