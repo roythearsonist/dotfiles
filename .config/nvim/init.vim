@@ -1,20 +1,14 @@
-set nocompatible
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
+call plug#begin()
 
-call vundle#begin()
+Plug 'VundleVim/Vundle.vim' 
 
-Plugin 'VundleVim/Vundle.vim' 
+Plug 'dracula/vim', { 'name': 'dracula' }
 
-Plugin 'dracula/vim', { 'name': 'dracula' }
+Plug 'mhinz/vim-startify'
 
-Plugin 'mhinz/vim-startify'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-Plugin 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'wsdjeg/FlyGrep.vim'
 
-Plugin 'wsdjeg/FlyGrep.vim'
-
-call vundle#end()
-
-filetype plugin indent on
+call plug#end()
 colorscheme dracula
