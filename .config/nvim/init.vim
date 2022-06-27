@@ -10,5 +10,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'wsdjeg/FlyGrep.vim'
 
+Plug 'github/copilot.vim'
+
 call plug#end()
 colorscheme dracula
